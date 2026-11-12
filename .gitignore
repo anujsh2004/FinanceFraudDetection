@@ -1,0 +1,55 @@
+# ─── Dataset (too large for GitHub — download from Kaggle) ───
+*.csv
+*.xlsx
+*.xls
+
+# ─── Generated plot outputs (recreated every run) ───
+*.png
+*.jpg
+*.jpeg
+
+# ─── Exported model files (too large for GitHub) ───
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+
+# ─── Auto-generated JSON from save_model.py ───
+feature_columns.json
+label_mappings.json
+
+# ─── Python cache ───
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ─── Jupyter checkpoints ───
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Virtual environment ───
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ─── TensorFlow / Keras logs ───
+logs/
+tensorboard_logs/
+*.log
+
+# ─── OS files ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE files ───
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
